@@ -10,3 +10,9 @@ const current1 = document.querySelector("#current--score2");
 const btnNew = document.querySelector(".btn--new");
 const btnRoll = document.querySelector(".btn--roll");
 const btnHold = document.querySelector(".btn--hold");
+
+// SCORES
+
+let playerScores = [0, 0];
+let currentPlayer = 0;
+let currentScore = 0;
