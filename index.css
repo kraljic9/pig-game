@@ -172,3 +172,7 @@ main {
   font-weight: 700;
   color: rgb(16, 35, 143);
 }
+
+.hidden {
+  display: none;
+}
