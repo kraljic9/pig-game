@@ -28,4 +28,9 @@ dice.classList.add("hidden");
 
 // DICE ROLL
 
-btnRoll.addEventListener("click", function () {});
+btnRoll.addEventListener("click", function () {
+  //Random dice roll
+  let diceRoll = Math.trunc(Math.random() * 6) + 1;
+  dice.src = `dice-${diceRoll}.png`;
+  dice.classList.remove("hidden");
+});
